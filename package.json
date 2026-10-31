@@ -4,7 +4,7 @@
   "description": "[Youtube](https://www.youtube.com/playlist?list=PL0lO_mIqDDFWPcMNOSjRJ_7Kqt3k8La6F)",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./server/index.js"
+    "dev": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/itgrad07/mern-dudar#readme",
   "dependencies": {
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
   }
 }
