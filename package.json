@@ -1,0 +1,22 @@
+{
+  "name": "mern-dudar",
+  "version": "1.0.0",
+  "description": "[Youtube](https://www.youtube.com/playlist?list=PL0lO_mIqDDFWPcMNOSjRJ_7Kqt3k8La6F)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itgrad07/mern-dudar.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/itgrad07/mern-dudar/issues"
+  },
+  "homepage": "https://github.com/itgrad07/mern-dudar#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
