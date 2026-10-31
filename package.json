@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/itgrad07/mern-dudar#readme",
   "dependencies": {
+    "dotenv": "^18.0.9",
     "express": "^5.3.0",
     "nodemon": "^3.1.14"
   }
