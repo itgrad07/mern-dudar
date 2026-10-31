@@ -5,6 +5,9 @@ const PORT = process.env.PORT || 5000;
 
 const app = express();
 
+// middleware, support json
+app.use(express.json());
+
 app.get("/", (req, res) => {
   res.send("<h1>Home page</h1>");
 });
